@@ -17,16 +17,16 @@ int main()
 
     for (int i = 0; i < n; i++)
     {
-        printf("Enter name of student %d: ", i + 1);
+        printf("Enter name of student : );
         scanf("%s", students[i].name);
 
-        printf("Enter ID of student %d: ", i + 1);
+        printf("Enter ID of student %d: ");
         scanf("%d", &students[i].id);
         fflush(stdin);
-        printf("Enter first subject marks %d: ", i + 1);
+        printf("Enter first subject marks %d: ");
         scanf("%s", students[i].Physics);
 
-        printf("Enter second subject marks %d: ", i + 1);
+        printf("Enter second subject marks %d: ");
         scanf("%s", students[i].Biology);
 
         printf("\n\n");
